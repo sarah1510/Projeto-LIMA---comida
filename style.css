@@ -12,12 +12,15 @@ body{
     background-image: linear-gradient(0, #62656e 0, #535457 25%, #41413e 50%, #2e2f26 75%, #1e2114 100%);
 }
 
+
 header{
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 5vh 10vw;
+    /* background-color: green; */
 }
+
 
 .span1{
     display: block;
@@ -46,6 +49,7 @@ header{
     text-decoration: none;
     letter-spacing: 4px;
 }
+
 
 .menu a{
     color: #FFFFFF;
@@ -82,6 +86,12 @@ header{
     border-radius: 5px;
     border: transparent;
 }
+
+.acoes{
+    display: flex;
+    gap: 150px;
+}
+
 
 .button1{
     background-color: transparent;
@@ -135,16 +145,14 @@ main p{
 
 .selecionar{
     display: flex;
-    margin-top: 35px;
+    margin-top: 20px;
     margin-left: 280px;
-
 }
 
 .selecionar1{
-    /* display: block; */
     background-color: #595757;
-    width: 300px;
-    height: 30px;
+    width: 250px;
+    height: 40px;
     border-radius: 10px;
     font-size: 10px;
     color: #FFFFFF;
@@ -157,10 +165,11 @@ main p{
 .selecionar2{
     position: relative;
     top: 50px;
-    right: 300px;
+    right: 250px;
+
     background-color: #595757;
-    width: 300px;
-    height: 30px;
+    width: 250px;
+    height: 40px;
     border-radius: 10px;
     font-size: 10px;
     color: #FFFFFF;
@@ -170,15 +179,23 @@ main p{
     letter-spacing: 5px;
 }
 
+.span{
+    display: flex;
+    justify-content: center;
+    width: 900px;
+}
+
 .pedido{
     position: relative;
-    top: 100px;
-    right: 600px;
+    top: 120px;
+    right: 500px;
+
     background-color: #FE5244;
-    width: 150px;
-    height: 30px;
+    border: transparent;
+    width: 170px;
+    height: 35px;
     border-radius: 10px;
-    font-size: 7px;
+    font-size: 9px;
     color: #FFFFFF;
     display: flex;
     justify-content: center;
@@ -186,13 +203,14 @@ main p{
     letter-spacing: 3px;
 }
 
-
-
+.pedido:hover{
+    background-color: #d14034;
+}
 
 main{
     flex-grow: 3;
+    /* background-color: green; */
 }
-
 
 img{
     width: 450px;
@@ -203,8 +221,91 @@ img{
 }
 
 footer{
-    flex-grow: 1;
+    /* flex-grow: 1; */
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+   
+}
+
+.botoes{
     display: flex;
     justify-content: center;
-    align-items: center;
+    gap: 100px;  
 }
+
+.botoes button{
+    color: #FFFFFF;
+    background-color: transparent;
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 10px;
+    letter-spacing: 5px;
+}
+
+
+
+
+/* .outros a{ */
+    /* display: flex;  */
+    /* display: inline; */
+    /* justify-content: space-around; */
+    
+    /* display: inline;
+    position: relative;
+    margin-left: 200px;
+    padding: 0 5px;
+    text-decoration: none; 
+    user-select: none;
+    background-color: #595757;
+    color: #FFFFFF;
+    width: 500px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 5px;
+    font-size: 13px;
+} */
+
+/* .outros li{
+    display: inline;
+    padding: 0 50px;
+    background-color: #2e2f26;
+    width: 150px; 
+    height: 10px;
+}   */
+
+
+
+
+
+
+
+/* .outros li{
+    list-style: none;
+    background-color: #2e2f26;
+    width: 1000px;
+    height: 30px;
+} */
+
+/* .outros ul{
+    display: inline;
+    border: #535457;
+    width: 10px;
+    height: 130px;
+}
+
+.outros a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 13px;
+    text-decoration: none;
+    user-select: none;
+    padding: 0 80px;
+    font-family: 'Poppins', sans-serif; 
+    letter-spacing: 5px;
+    background-color: #62656e;
+} */
+
+
+

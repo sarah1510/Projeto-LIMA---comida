@@ -7,6 +7,7 @@
     
     <link rel="stylesheet" href="style.css">
 
+    <script src="https://kit.fontawesome.com/a757f2d5f7.js" crossorigin="anonymous"></script>
     
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
@@ -20,7 +21,6 @@
 <body>
 
     <header>
-       
         <div class="logo">
             <a href="#"> <span class="span1">Hunter</span> <span class="span2">Food Cafe</span></a>
         </div>
@@ -35,46 +35,51 @@
             </ul>
         </nav>
     
-        <div class="acoes">
-            <a href="#"><button class="botaoPesquisar">L</button></a>
-            <a href="#"><button class="botaoComprar">S</button></a>
-        </div>
+        <nav class="acoes">
+            <button class="botaoPesquisar"><i class="fas fa-search"></i></button>
+            <button class="botaoComprar"><i class="fas fa-shopping-bag"></i></button>
+        </nav>
 
-
-
-        <div>
-            <a href="#"><button class="button1">Sign in</button></a>
-            <a href="#"><button class="button2">Sign up</button></a>
-        </div>
-        
-
+        <nav>
+            <button class="button1">Sign in</button>
+            <button class="button2">Sign up</button>
+        </nav>
     </header>
 
-
-
-
-    <!-- &#128269; -->
-
-     
+    
 
     <main>
-
         <div class="nomeRestaurante">
             <h1>Hunter!</h1>
             <p>that meets your needs</p>
         </div>
 
-        <div class="selecionar">
-            <p class="selecionar1">Select Your City</p>
-            <p class="selecionar2">Select Your Food</p>
-            <p class="pedido">Enjoy Your Food</p>
-        </div>
-
+        <nav class="selecionar">
+            <p class="selecionar1">Select Your City <span>&#8964;</span> </p>
+            <p class="selecionar2">Select Your Food <span>&#8964;</span> </p>
+            <button class="pedido">Enjoy Your Food</button>
+        </nav>
 
         <img src="img/LANCHE.png" alt="hamburguer">
     </main>
 
-    <footer>Outros</footer>
+
+    <footer>
+        <nav class="botoes">
+            <button>Burguer</button>
+            <button>Salada</button>
+            <button>Pizza</button>
+            <button>Drink</button>
+        </nav>
+
+       
+        <!-- <nav class="outros">
+            <a href="#">Burguer</a>
+            <a href="#">Salad</a>
+            <a href="#">Pizza</a>
+            <a href="#">Drink</a> 
+        </nav> -->
+    </footer>
 
     
 </body>
