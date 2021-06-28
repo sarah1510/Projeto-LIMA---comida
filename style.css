@@ -50,7 +50,6 @@ header{
     letter-spacing: 4px;
 }
 
-
 .menu a{
     color: #FFFFFF;
     font-size: 13px;
@@ -100,7 +99,7 @@ header{
     gap: 150px;
 }
 
-.button1{
+.buttonEntrar{
     background-color: transparent;
     border: transparent;
     width: 100px;
@@ -111,7 +110,7 @@ header{
     font-size: 13px;
 }
 
-.button2{
+.buttonInscrever{
     background-color: #FFCF2D;
     border: #FFCF2D;
     width: 100px;
@@ -123,11 +122,11 @@ header{
     font-size: 13px;
 }
 
-.button1:hover{
+.buttonEntrar:hover{
     color: #f0ab0a;
 }
 
-.button2:hover{
+.buttonInscrever:hover{
     background-color: #f0ab0a;
 }
 
@@ -156,7 +155,7 @@ main p{
     margin-left: 280px;
 }
 
-.selecionar1{
+.selecionarCidade{
     background-color: #595757;
     width: 300px;
     height: 40px;
@@ -169,7 +168,7 @@ main p{
     letter-spacing: 3px;
 }
 
-.selecionar2{
+.selecionarComida{
     position: relative;
     top: 50px;
     right: 300px;
@@ -186,10 +185,11 @@ main p{
     letter-spacing: 3px;
 }
 
-/* .span{
+/* .seta-baixo{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     width: 1000px;
+    height: 50px;
 } */
 
 .pedido{
@@ -219,7 +219,7 @@ main{
     /* background-color: green; */
 }
 
-img{
+.lanche-principal{
     width: 450px;
     position: absolute;
     left: 700px;
@@ -259,6 +259,12 @@ img{
     background: #d14034;
 }
 
+.indicador{
+    width: 200px;
+    top: 450px;
+    transform: rotate(30deg);
+}
+
 
 footer{
     /* flex-grow: 1; */
@@ -276,15 +282,40 @@ footer{
 
 .botoes button{
     color: #FFFFFF;
-    background-color: transparent;
+    background-color: #41413e;
+    border-radius: 50px;
+    border: transparent;
     width: 120px;
     height: 40px;
-    border-radius: 50px;
     font-family: 'Poppins', sans-serif; 
     font-size: 10px;
     letter-spacing: 5px;
 }
 
+.burguer-footer{
+    position: absolute;
+    width: 60px;
+    left: 257px;
+    top: 535px;
+}
 
+.salad-footer{
+    position: absolute;
+    width: 60px;
+    left: 478px;
+    top: 535px;
+}
 
+.pizza-footer{
+    position: absolute;
+    width: 60px;
+    left: 700px;
+    top: 535px;
+}
 
+.suco-footer{
+    position: absolute;
+    width: 40px;
+    left: 930px;
+    top: 530px;
+}
